@@ -1,0 +1,75 @@
+.flex-wrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrap fieldset {
+    display: flex;
+    width: 80%
+}
+
+.flex-wrap fieldset form {
+    width: 100%
+}
+
+.flex-wrap fieldset small,
+.flex-wrap fieldset small a {
+    font-size: 0.9em;
+    color: #F4FAFF;
+}
+
+.flex-wrap fieldset form div.functions label {
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.flex-wrap fieldset form div.functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #F4FAFF; 
+}
+
+.flex-wrap fieldset form div.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap fieldset form div.inputs button {
+    color: #F4FAFF;
+    background: #23395B;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 300; 
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background: #F4FAFF;
+    color: #161925;
+    font-size: 0.75em;
+    font-weight: 300; 
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding-left: 5px;
+    outline: 0;
+}
+
+input[type="email"] {
+    margin-top: 0;
+}
+
+input[type="radio"] {
+    position: fixed;
+    left: -100px;
+}
+
+#sign-in:checked {}
+#sign-up:checked {}
+#reset:checked {}
